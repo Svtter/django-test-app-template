@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "charliermarsh.ruff",
+  "editor.codeActionsOnSave": {
+    // 会导致直接删除不使用的 import
+    // "source.fixAll": "explicit",
+    // "source.organizeImports": "explicit"
+  },
+  "python.analysis.exclude": [
+    "/app/data",
+    "/app/data/**",
+    "./data/**",
+    "./data"
+  ]
+}
